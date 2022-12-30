@@ -2,6 +2,15 @@
 \usepackage{graphicx}
 \usepackage{enumerate}
 \usepackage{amsmath}
+\usepackage{ragged2e}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left.#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\let\vec\mathbf
+
 \begin{document}
 \begin{center}
 \textbf\large{CHAPTER-7 \\ Straight Line and Pair of Straight Lines}
@@ -15,17 +24,18 @@
 \item  The area enclosed with in the curves $|x|+|y|$ is.........  (1981) \\
 \item  $y=10^x$ is the reflection of $y=\log_10^x $ in the line whose equation is.........(1982)\\
 \item The set of lines $ax+by+c=0$ where $3a+2b+4c=0$ is concurrent at the point..........(1982)\\
-\item  Given the points A(0,4) and B(0,-4), the equation of the locus of the point P(x,y) such that$|AP-BP|=6$ is.............(1983)\\
+\item  Given the points $\vec{A}(0,4)$ and $\vec{B}(0,-4)$, the equation of the locus of the point P(x,y) such that$|\vec{AP}-\vec{BP}|=6$ is.............(1983)\\
 \item  If $a,b and c$ are in A.P.. then the straight line $ax+by+c=0$ will always pass through a fixed point whose coordinates are........(1984)\\
 \item  The orthocenter of the triangle formed by the lines $x+y=1, 2x+3y=6  and  4x-y+4=0$ lies in quadrant number............(1985)\\
 \item Let the algebraic sum of the perpendicular distances from the points (2,0), (0,2) and (1,1)to a variable straight line be zero; then the line passes through a fixed point whose cordinates are.........(1991)\\
-\item The vertices of a triangle are  A(-1,-7), B(5,1)and C(1,4). The equation of the bisector of the angle $\angle{ABC}$ is........(1993)
+\item The vertices of a triangle are $\vec{A}(-1,-7)$, $\vec{B}(5,1)$and $\vec{C}(1,4)$. The equation of the bisector of the angle $\angle{ABC}$ is........(1993)
 
 \end{enumerate}
 
 \section*{B    :    True/False}
 
 \begin{enumerate}
+
 
 \item  The sraight line $5x+4y=0$ passes through the point of intersection of the straight lines $x+2y-10=0$ and $2x+5+6=0$.(1983)\\
 \item The lines $2x+3y=19=0$ $9x+6y-17=0$ cut the coordinate axes in concyclic points.(1988)\\
@@ -34,7 +44,7 @@
 \section*{C  :   MCQ'S with One Correct Answer}
 
 \begin{enumerate}
-\item The points$(a,b),(0,0)(a,b)$ and $(a2.ab)$ are: (1979)
+\item The points$(a,b),(0,0)(a,b)$ and $(a^2,ab)$ are: (1979)
 \begin{enumerate}
 \item Collinear
 \item Vertices of a parallelogram
@@ -50,7 +60,7 @@
 
 then the final position of the point is given by the coordinates. (1980)
 \begin{enumerate}
-\item  $ [\frac{1}{\sqrt{2}},\frac{7}{\sqrt{2}}]$  
+\item  $[\frac{1}{\sqrt{2}},\frac{7}{\sqrt{2}}]$
 \item  $(-\sqrt{2}, \sqrt[7]{2})$  
 \item  $[\frac{-1}{\sqrt{2}},\frac{7}{\sqrt{2}}]$
 \item  $(\sqrt{2}, \sqrt[7]{2})$
@@ -63,7 +73,7 @@ then the final position of the point is given by the coordinates. (1980)
 \item rightangled
 \item none of these
 \end{enumerate}
-\item If $P=(1,0),Q=(-1,0) and R=(2,0)$ are three given points,then the locus of the point S satisfying the relation $SQ^2+SR^2=SP^2$, is (1988)
+\item If $\vec{P}=(1,0),\vec{Q}=(-1,0) and \vec{R}=(2,0)$ are three given points,then the locus of the point S satisfying the relation $SQ^2+SR^2=SP^2$, is (1988)
 \begin{enumerate}
 \item a straight line parllel to x-axis  
 \item a circie passing hrough the origin 
@@ -72,8 +82,8 @@ then the final position of the point is given by the coordinates. (1980)
 \end{enumerate}
 \item Line L has intercepts a and b on the coordinate axes. When the axes are rotate through a given angle, keeping up the origin fixed, the same line L has intercepts  p and q then (1990)\\
 \begin{enumerate}
-\item $a^2=b^2=p^2=q^2$ 
-\item $\frac{1}{a^2} +\frac{1}{b^2}=\frac{1}{p^2}=\frac{1}{q^2}$ 
+\item $a^2+b^2=p^2+q^2$ 
+\item $\frac{1}{a^2} +\frac{1}{b^2}=\frac{1}{p^2}+\frac{1}{q^2}$ 
 \item $a^2+p^2=b^2+q^2$ 
 \item $\frac{1}{a^2}+\frac{1}{p^2}=\frac{1}{b^2}+\frac{1}{q^2}$
 \end{enumerate}
@@ -100,12 +110,12 @@ then the final position of the point is given by the coordinates. (1980)
 \end{enumerate}
 \item The orthocenter of the lines formed by $xy=0$ and $x+y=1$ is (1995'S)
 \begin{enumerate}
-\item (1/2,1/2) 
-\item (1/3,1/3) 
+\item $\brak{\frac{1}{2},\frac{1}{2}}$
+\item $\brak{\frac{1}{3},\frac{1}{3}}$
 \item (0,0)
-\item (1/4,1/4)
+\item $\brak{\frac{1}{4},\frac{1}{4}}$
 \end{enumerate}
-\item Let PQR be a rightangled isoscales triangle, right angled at $P(2,1)$ if the equation of the line QR is $2x+y=3$, then the equation representing the pair of line PQ and PR is (1999)\\
+\item Let PQR be a rightangled isoscales triangle, right angled at $\vec{P}(2,1)$ if the equation of the line QR is $2x+y=3$, then the equation representing the pair of line PQ and PR is (1999)\\
 \begin{enumerate}
 \item $3x^2-3y^2+8xy+20x+10y+25=0$
 \item $3x^2-3y^2+8xy-20x-10y+25=0$
@@ -119,19 +129,19 @@ then the final position of the point is given by the coordinates. (1980)
 \item lie on a circle  
 \item are vertices of triangle 
 \end{enumerate}
-\item Let PS median of the tringle with vertices P(2,2), Q(6,1) and R(7,3). The equation of the line passing through (1,-1) and parllel to PS is. (2000'S)
+\item Let PS median of the tringle with vertices $\vec{P}(2,2), \vec{Q}(6,1) and \vec{R}(7,3)$. The equation of the line passing through (1,-1) and parllel to PS is. (2000'S)
 \begin{enumerate}
 \item $2x-9y-7=0$ 
 \item $2x-9y-11=0$ 
 \item $2x+9y-11=0$
 \item $2x+9y+7=0$
 \end{enumerate}
-\item The incenter of the triangle with vertices $\frac{1}{\sqrt{3}}$,$(0,0)$ and $(2,0)$ is (2000'S)
+\item The incenter of the triangle with vertices $(1,\sqrt{3})$,$(0,0)$ and $(2,0)$ is (2000'S)
 \begin{enumerate}
-\item $[1,\sqrt{3}/2]$ 
-\item $\frac{2}{3}\,\frac{\sqrt{3}}{2}$ 
-\item $\frac{2}{3},\frac{\sqrt{3}}{2}$ 
-\item $[1,{1}{\sqrt{3}}]$
+\item $[1,\frac{\sqrt{3}}{2}]$ 
+\item $[\frac{2}{3},\frac{\sqrt{3}}{2}]$ 
+\item $[\frac{2}{3},\frac{\sqrt{3}}{2}]$ 
+\item $[1,\frac{1}{{\sqrt{3}}}]$
 \end{enumerate}
 \item The number of integer values of m, for which the x-coordinate of the of intersection of line $3x+4y=9$ and $y=mx+1$ is also an integer, is (2001'S)
 \begin{enumerate}
@@ -147,14 +157,14 @@ then the final position of the point is given by the coordinates. (1980)
 \item $\frac{1}{(\mid m+n \mid)}$
 \item $\frac{1}{(\mid m-n\mid)}$
 \end{enumerate}
-\item Let $0<a<\frac{\pi}{2}$ be fixed angle. If $P=(\cos\theta,\sin\theta)$, Q=$(\cos\alpha-\theta),(\sin\alpha-\theta)$, then Qis obtained from P by (2002S)
+\item Let $0<a<\frac{\pi}{2}$ be fixed angle. If $\vec{P}=(\cos\theta,\sin\theta)$, $\vec{Q}=(\cos\alpha-\theta),(\sin\alpha-\theta)$, then Q is obtained from P by (2002S)
 \begin{enumerate}
 \item clockwise wise rotation around origin through an angle $\alpha$
 \item anticlockwise wise rotation around origin through an angle $\alpha$
 \item reflection in the line through origin with slope $\tan\alpha$
 \item reflection in the line through origin with slope $\tan\alpha/2$
 \end{enumerate}
-\item Let $P=(-1,0)$,$Q=(0,0)$ and $R=(3,\sqrt[3]{3})$ be three points.\\
+\item Let $\vec{P}=(-1,0)$,$\vec{Q}=(0,0)$ and $\vec{R}=(3,\sqrt[3]{3})$ be three points.\\
 Then the equation of the bisector of the angle PQR is (2002'S)
 \begin{enumerate}
 \item $\frac{\sqrt{3}}{2x}+y=0$ 
@@ -190,7 +200,7 @@ Then the equation of the bisector of the angle PQR is (2002'S)
 \item 6 sq. units    
 \item 8 sq. units
 \end{enumerate}
-\item Let $O(0,0),P(3,4),Q(6,0)$ be the vertices of the tiangles OPQ. The point R inside the triangle OPQ is such that the triangles OPR,PQR,OQR are of equal area. The coordinates of R are   (2007)
+\item Let $\vec{O}(0,0)$,$\vec{P}(3,4)$,$\vec{Q}(6,0)$ be the vertices of the tiangles OPQ. The point R inside the triangle OPQ is such that the triangles OPR,PQR,OQR are of equal area. The coordinates of R are   (2007)
 \begin{enumerate}
 \item $[\frac{4}{3}, 3]$   
 \item $[3,\frac{2}{3}]$  
@@ -199,8 +209,8 @@ Then the equation of the bisector of the angle PQR is (2002'S)
 \end{enumerate}
 \item A straight line through the point $(3,2)$ inclined at an angle $60^\circ$  to the line $\sqrt{3}x+y=1$. If L also intersects the x-axis, then the equation of L is   (2011)
 \begin{enumerate}
-\item $y+\sqrt{3}+2+\sqrt[3]{3}=0$
-\item $y-\sqrt{3}+2+\sqrt[3]{3}=0$ 
+\item $y+\sqrt{3}x+2+\sqrt[3]{3}=0$
+\item $y-\sqrt{3}x+2+\sqrt[3]{3}=0$ 
 \item $\sqrt{3}y-x+3+\sqrt[2]{3}=0$  
 \item $\sqrt{3}y+x-3+\sqrt[2]{3}=0$
 \end{enumerate}
@@ -239,7 +249,7 @@ Then the equation of the bisector of the angle PQR is (2002'S)
 \item $p=1$ or  $p=-1$
 \item none of these.
 \end{enumerate}
-\item  If $P(1,2),Q(4,6),R(5,7)$ and $S(a,b)$ are the vertices of a parallelogram PQRS, /then (1998)\\
+\item  If $\vec{P}(1,2),\vec{Q}(4,6),vec{R}(5,7)$ and $\vec{S}(a,b)$ are the vertices of a parallelogram PQRS, /then (1998)\\
 \begin{enumerate}
 \item $a=2,b=4$
 \item $a=3,b=4$ 
@@ -262,7 +272,7 @@ Then the equation of the bisector of the angle PQR is (2002'S)
 \item orthocenter
 (A rational point is a point both of whose coordinates are rational numbers.)
 \end{enumerate}
-\item  Let $L_1$ be a straight line passing through the origin and $L_2$ be the straight line $x+y=1$. If the intercepts made by the circle $x^2+y^2-x+3y=0$ on $L_1$ and $L_2$ are equal, then which of the equation can represents $L_1$? (1999)\\
+\item  Let $\vec{L_1}$ be a straight line passing through the origin and $L_2$ be the straight line $x+y=1$. If the intercepts made by the circle $x^2+y^2-x+3y=0$ on $\vec{L_1}$ and $\vec{L_2}$ are equal, then which of the equation can represents $\vec{L_1}$? (1999)\\
 \begin{enumerate}
 \item $x+y=0$   
 \item $x-y=0$ 
@@ -283,7 +293,7 @@ Then the equation of the bisector of the angle PQR is (2002'S)
 
 \begin{enumerate}
 \item  A straight line segment of length l moves with it's ends on two mutually perpendicular lines. Find the locus of the point which divides the line segment in the ratio $1:2$. (1978)
-\item The area of triangle is 5. Two of it's vertices are A(2,1) and B(3-2). The third vertex C lies on $y=x+3$. Finf C.(1978)
+\item The area of triangle is 5. Two of it's vertices are $\vec{A}(2,1)$ and $\vec{B}(3-2)$. The third vertex C lies on $y=x+3$. Finf C.(1978)
 \item One side of the rectangle lies along the line $4x+7y+5=0$. Two of it's vertices are (-3,1) and (1,1). Find the equation of the other two sides.(1978)
 \item(a) Two vertices of a triangle are (5,-1) and (-2,3) If the orthocenter of the triangle is the origin,find the coordinates of the third point. (1978)
 (b) Find the equation of the line which bisects the obtuse angle between the lines $x-2y+4=0$ and $4x-3y+2=0$\\ (1979)
@@ -294,29 +304,35 @@ Then the equation of the bisector of the angle PQR is (2002'S)
 \item Two equal sides of a isoscales triangle are given by the equations $7x-y+3=0$ and $x+y-3=0$ and it's third side passes through the point $(1,10)$. Determaine the equation of the third side.(1984)\\
 \item One of the diametes of the circle circumscribing the rectangle ABCD is $4y=x+7$. If A and B are the ponts $(-3,4)$ and $(5,4)$ respetively then find the area of the rectangle.(1985)\\
 \item Two sides of a rhombus ABCD are parallel to the lines $y=x+2$ and $y=7x+3$. If the diagonals of the rhombus intersects at the point $(1,2)$ and the vertex A on the y axis, find the possible coordinates of A.(1985)\\
-\item Lines $L_1=ax+by+c=0$ and $L_2=lx+my+n=0$ intersects at the point P and make an angle $\theta$ with each other. Find the equation of a line L different from $L_2$ which passes through P and makes the same angle $\theta$ with $L_1$.(1989)\\
-\item Let ABC be a triangle with $AB-AC$.r If D is the pont of BC, E is the foot of the perpendicular drawn from D to AC and F the mid point of DE, prove that AF is perpendicular to BE.(1989)\\
+\item Lines $L_1=ax+by+c=0$ and $L_2=lx+my+n=0$ intersects at the point P and make an angle $\theta$ with each other. Find the equation of a line L different from $\vec{L_2}$ which passes through P and makes the same angle $\theta$ with $\vec{L_1}$.(1989)\\
+\item Let ABC be a triangle with $\vec{AB}-\vec{AC}$. If D is the pont of BC, E is the foot of the perpendicular drawn from D to AC and F the mid point of DE, prove that AF is perpendicular to BE.(1989)\\
 \item Sraight lines $3x+4y-5$ and $4x+3y-5$ intersects at the point A. Points B and C 
-are choosen on these two lines such that $AB=AC$. Determine the possible equaton of the line BC passing through the point (1,2).(1990)\\
-\item A line cuts the x-axis at A(7,0) and the y-axis at B(0,5). A variable line PQ drawn perpendicular to AB cutting the x-axis  in P and y-axis in Q. If AQ and BP intersets at R, find the locus of R.(1990)\\
+are choosen on these two lines such that $\vec{AB}=\vec{AC}$. Determine the possible equaton of the line BC passing through the point (1,2).(1990)\\
+\item A line cuts the x-axis at $\vec{A}(7,0)$ and the y-axis at $\vec{B}(0,5)$. A variable line PQ drawn perpendicular to AB cutting the x-axis  in P and y-axis in Q. If $\vec{AQ}$ and $\vec{BP}$ intersets at R, find the locus of R.(1990)\\
 \item Find the equation of the line passing through the point (2,3)and intersects of length 2 units between the lines $y+2x=3$ and $y+2x=5$.(1991)\\
- 
- \begin{figure}[h]
+
+\begin{figure}[!h]
 \centering
-    \includegraphics[width=5cm, height=3cm]{fig.png}
-     \end{figure}
+  \includegraphics[width=\columnwidth]{fig.png}
+ \caption{}
+ \label{}
+ \end{figure}
+
      
 \newpage
 \item Show that all chords of the curve  $2x^2-y^2-2x+4y=0$. Which subtend a right angle at the origin. Passes through a fixed point. Find the coordinates of the point.(1991)\\
 \item Determine all values of a for which the point $(a, a^2)$ lies inside the triangle formed by the lines\\
-$2x+3y-1=0$\\
-$x+2y-1=0$\\       (1992)
-$5x-6y-1=0$\\
-\item Tangent at a point $P_1$ [other than (0,0)] on the curve $y-x^3$ meets the curve again at $P_2$. The tangent at $P_1$ meets the curve at $P_2$ and so on. Show that the abscissae of $p_1+p_2+p_3+.....+p_n$ form a G.P. Also find the ratio.(1993)\\
-\item A line through $A(5,4)$ meets the line $x+3y+2=0$ $2x+y+4=0$ and $x-y-5=0$ at points B,C and D respectively. If    $\frac{15}{AB}^2+\frac{10}{AC}^2-\frac{6}{AD}^2$, find the equation of the line.(1993)\\
+\begin{align}
+ &2x+3y-1 =0 \\
+ &x+2y-1 =0 \ \: (1992)\\
+ &5x-6y-1 =0 
+\end{align}
+
+\item Tangent at a point $\vec{P_1}$ [other than (0,0)] on the curve $y-x^3$ meets the curve again at $\vec{P_2}$. The tangent at $\vec{P_1}$ meets the curve at $\vec{P_2}$ and so on. Show that the abscissae of $\vec{p_1+p_2+p_3+.....+p_n}$ form a G.P. Also find the ratio.(1993)\\
+\item A line through $\vec{A}(5,4)$ meets the line $x+3y+2=0$ $2x+y+4=0$ and $x-y-5=0$ at points B,C and D respectively. If    $\frac{15}{AB}^2+\frac{10}{AC}^2-\frac{6}{AD}^2$, find the equation of the line.(1993)\\
 \item A triangle PQRS has it's side PQ parallel to the line $y-mx$ and vertices P,Q and S on the lines $y-a$,$ x-b$ and $x--b$, respectively find the locus of the vertex R. (1996)\\
 \item Using co-ordinate geometry prove that the three altitudes of any triangle are concurrent (1998)\\
-\item For points $P=(x_1,Y_1)$ and $Q=(x_2,y_2)$ of the coordinate palne, a new distance $d(P,Q)$ is defined by $d(P,Q)=\mid x_1-x_2\mid + \mid y_1-y_2\mid$. Let $O=(0,0)$  and $A=(3,2)$. Prove that the set of points in the first quadrant which are equidistance (with to line new distance) from O and A consists of the union of line segment of finite length and an infinite ray. Sketch this set in a labelled diagram. (2000)\\
+\item For points $P=(x_1,Y_1)$ and $Q=(x_2,y_2)$ of the coordinate palne, a new distance $d(P,Q)$ is defined by $d(P,Q)=\mid x_1-x_2\mid + \mid y_1-y_2\mid$. Let $\vec{O}=(0,0)$  and $\vec{A}=(3,2)$. Prove that the set of points in the first quadrant which are equidistance (with to line new distance) from O and A consists of the union of line segment of finite length and an infinite ray. Sketch this set in a labelled diagram. (2000)\\
 \item Let ABC and PQR be any two triangles in the same plane. Assume that the perpendicular from the points A,B,C to the sides QR, RP, PQ respectively are concurrent. Using vector methods or otherwise, prove that the perpendiculars from P,Q,R to BC, CA, AB  respectively are also concurrent. (2000)\\
 \item Let a,b,c are real numbers with $a^2+b^2+c^2=1$. Show that the equation\\ 
 $\begin{vmatrix}
@@ -325,16 +341,16 @@ $\begin{vmatrix}
  cx+a    & cy+b    & ax-by+c
 \end{vmatrix}$ \\
 represents a straight line.    (2001)
-\item A straight line L through the origin meets the lines $x+y+1$ and $x+y=3$ at P and Q respectively. Through  P and Q two straight lines $L_1 and L_2$ intersects at R . Show that the locus of R, as L varies, is a staight line. (2002)\\
+\item A straight line L through the origin meets the lines $x+y+1$ and $x+y=3$ at P and Q respectively. Through  P and Q two straight lines $\vec{L_1} and \vec{L_2}$ intersects at R . Show that the locus of R, as L varies, is a staight line. (2002)\\
 \item A straight line negative slope passes through the points $(8,2)$ cuts the positive 
-coordnate axes at points P and Q. Find the absolute minimum value of $OP+OQ$, as L varies . Where O is the origin. (2002)\\
-\item The area of the triangle formed by the intersection of a line parallel to x-axis and passing through $p(h,k)$ with the lines $y-x$ and $x+y-2$ is $4h^2$. Find the locus of the point. (2002)\\
+coordnate axes at points P and Q. Find the absolute minimum value of $\vec{OP}+\vec{OQ}$, as L varies . Where O is the origin. (2002)\\
+\item The area of the triangle formed by the intersection of a line parallel to x-axis and passing through $\vec{p}(h,k)$ with the lines $y-x$ and $x+y-2$ is $4h^2$. Find the locus of the point. (2002)\\
 \end{enumerate}
 
 \section*{H   : Assertion and Reason Type Questions}
 
 \begin{enumerate}
-\item Lines $L_1: Y-X=0$ and $L_2 :2x+y=0$ intersects the line $l_3:y+2=0$ at P and Q, respectively. The bisector of the acute angle between $L_1 and L_2$ intersects $L_3$ at R.\\
+\item Lines $L_1: Y-X=0$ and $L_2 :2x+y=0$ intersects the line $L_3:y+2=0$ at P and Q, respectively. The bisector of the acute angle between $L_1 and L_2$ intersects $L_3$ at R.\\
 STATEMENT-1 : The ratio $PR:RQ$equals $\sqrt[2]{2}:\sqrt{5}$. because \\
 STATEMENT-2 :In any triangle, bisector of an angle divides the triangle into two triangles. (2007)
 \begin{enumerate}
@@ -347,8 +363,8 @@ STATEMENT-2 :In any triangle, bisector of an angle divides the triangle into two
 
 \section*{I    :     Integer Value Correct Type }
 \begin{enumerate}
-\item For a point P in the plane, let $d_1(p)$ and $d_2(p)$ be the distance of a point P
-from the lines $x-y=0$ and $x=y=0$ respectively. The area of the region R consistes of all points P lying in the first quadrant of the plane and satisfying $2\leq d_1(p)+d_2(p)\leq$, is (JEE Adv. 2014)
+\item For a point P in the plane, let $\vec{d_1}(p)$ and $\vec{d_2}(p)$ be the distance of a point P
+from the lines $x-y=0$ and $x=y=0$ respectively. The area of the region R consistes of all points P lying in the first quadrant of the plane and satisfying $2\leq \vec{d_1}(p)+\vec{d_2}(p)\leq$, is (JEE Adv. 2014)
 \end{enumerate}
 
 \section*{Section-B   [JEE Main/AIEE]}
@@ -416,7 +432,7 @@ from the lines $x-y=0$ and $x=y=0$ respectively. The area of the region R consis
 \item $a+1^2-a_2^2+b_1^2-b_2^2$
 \item $\frac{1}{2}(a_1^2+a_2^2+b_1^2+b_2^2)$
 \end{enumerate}
-\item Let $A(2,-3)$ and $B(-2,3)$ be vertices of a triangle ABC. If the centroid of this triangle moves on the line $2x+3y=1$, then the locus of the vertex C is in the line  (2004)
+\item Let $\vec{A}(2,-3)$ and $\vec{B}(-2,3)$ be vertices of a triangle ABC. If the centroid of this triangle moves on the line $2x+3y=1$, then the locus of the vertex C is in the line  (2004)
 \begin{enumerate}
 \item $3x-2y=0$
 \item $2x-3y=7$ 
@@ -424,10 +440,10 @@ from the lines $x-y=0$ and $x=y=0$ respectively. The area of the region R consis
 \item $2x+=3y=9$
 \end{enumerate}
 \item The equation of the straight line passing through the point $(4,3)$ and making intercepts on the coordinate axes whose sum is -1 is (2004)
-\begin{enumerate}
+t\begin{enumerate}
 \item $\frac{x}{2}-\frac{y}{3}=1$ and $\frac{x}{-2}+\frac{y}{1}=1$
 \item $\frac{x}{2}-\frac{y}{3}=-1$ and $\frac{x}{-2}+\frac{y}{1}=-1$
-\item $\frac{x}{2}+frac{y}{3}=1$ and $\frac{x}{2}+\frac{y}{1}=1$
+\item $\frac{x}{2}+\frac{y}{3}=1$ and $\frac{x}{2}+\frac{y}{1}=1$
 \item $\frac{x}{2}+\frac{y}{3}=1$ and $\frac{x}{-2}+\frac{y}{1}=-1$
 \end{enumerate}
 \item If the sum of the slopes of the lines given by $x^2-2cxy-7y^2=0$ is four times the product c has the value (2004)
@@ -472,14 +488,14 @@ from the lines $x-y=0$ and $x=y=0$ respectively. The area of the region R consis
 \item $\left[\frac{1}{2},3\right]$ 
 \item $\left[-3,\frac{1}{2}\right]$
 \end{enumerate}
-\item Let $A(h,k)$ and $B(1,1)$ and $C(2,1)$ be the vertices of a right angle triangle with AC as it's hypotenuse. If the area of the triangle is 1 square unit, then the set of values which 'k' can taken is given by (2007)
+\item Let $\vec{A}(h,k)$ and $\vec{B}(1,1)$ and $\vec{C}(2,1)$ be the vertices of a right angle triangle with AC as it's hypotenuse. If the area of the triangle is 1 square unit, then the set of values which 'k' can taken is given by (2007)
 \begin{enumerate}
 \item $(-1,3)$ 
 \item $(-3,-2)$
 \item $(1,3)$ 
 \item $(0,2)$
 \end{enumerate}
-\item Let $P=(-1,0),Q=(0,0) and R=(3,\sqrt[3]{3})$ be three points. The equation of the bisector of the angle PQR is (2007)
+\item Let $\vec{P}=(-1,0),\vec{Q}=(0,0) and \vec{R}=(3,\sqrt[3]{3})$ be three points. The equation of the bisector of the angle PQR is (2007)
 \begin{enumerate}
 \item $\frac{\sqrt{3}}{2}x+y=0$ 
 \item $x+\sqrt{3}y=0$ 
@@ -558,7 +574,7 @@ STATEMENT-2: In any triangle,bisector of an angle divides the triangle into two 
 \item $1+\sqrt{2}$ 
 \item $1-\sqrt{2}$
 \end{enumerate}
-\item Let PS e the median of the triangle with vertices $P(2,2)$,$Q(6,-1)$ and $R(7,3)$. The equation of the line passing through (1,-1)and parallel to PS is: (JEE M 2014)
+\item Let PS e the median of the triangle with vertices $\vec{P}(2,2)$,$\vec{Q}(6,-1)$ and $\vec{R}(7,3)$. The equation of the line passing through (1,-1)and parallel to PS is: (JEE M 2014)
 \begin{enumerate}
 \item $4x+7y+3=0$ 
 \item $2x-9y+11=0$ 
@@ -581,8 +597,8 @@ STATEMENT-2: In any triangle,bisector of an angle divides the triangle into two 
 \end{enumerate}
 \item Two sides  of a rhombus are alone the lines, $x-y+1=0$ and $7x+y-5=0$. If it's diagoals intersect at(-1,-2), then which one of the following is a vertex of this rhombus? (JEE M 2016)
 \begin{enumerate}
-\item $\left[ \frac{1}{3},\frac{8}{3}\right]$ 
-\item $\left[ \frac{10}{3},\frac{7}{3}\right]$ 
+\item $\brak{\frac{1}{3},\frac{8}{3}}$ 
+\item $\brak{\frac{10}{3},\frac{7}{3}}$ 
 \item $(-3,-9)$ 
 \item $(-3,-8)$
 \end{enumerate}
@@ -595,7 +611,7 @@ STATEMENT-2: In any triangle,bisector of an angle divides the triangle into two 
 \end{enumerate}
 \item consider the set of all lines $px+qy+r=0$ such that $3p+2q+4r=0$. Which one of the following statements is true? [JEE M 2019-9 Jan (M)]
 \begin{enumerate}
-\item The lines are concurent at the point $\left[\frac{3}{4}\frac{1}{2}\right] $.
+\item The lines are concurent at the point $\brak{\frac{3}{4},\frac{1}{2}} $.
 \item Each the line passes through the origin.
 \item The lines are parallel.
 \item The lines are not concurrent.
