@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.9)  29 DEC 2022 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.9)  2 JAN 2023 10:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -171,11 +171,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
@@ -206,19 +201,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
@@ -232,84 +227,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 [4] [5] [6]
-Overfull \hbox (11.86134pt too wide) in paragraph at lines 203--205
+Overfull \hbox (11.86134pt too wide) in paragraph at lines 204--206
 \OT1/cmr/m/n/12 point R in-side the tri-an-gle OPQ is such that the tri-an-gles
  OPR,PQR,OQR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--223
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
+Underfull \hbox (badness 10000) in paragraph at lines 237--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--246
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 252--254
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
+Underfull \hbox (badness 10000) in paragraph at lines 261--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--277
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 282--284
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
@@ -333,18 +328,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--311
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
 
  []
 
@@ -353,10 +348,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
 <fig.png, id=47, 438.63875pt x 313.17pt>
 File: fig.png Graphic file (type png)
 <use fig.png>
-Package pdftex.def Info: fig.png  used on input line 316.
+Package pdftex.def Info: fig.png  used on input line 317.
 (pdftex.def)             Requested size: 390.0pt x 278.44803pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -435,7 +435,7 @@ blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on chap-7.pdf (24 pages, 167217 bytes).
+Output written on chap-7.pdf (24 pages, 167611 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
